@@ -19,16 +19,15 @@ export default function TransactionForm({ type }: Props) {
     : ["Alimentación","Cuentas / Pagos","Vivienda","Transporte","Auto","Ropa","Salud e higiene","Diversión","Vacaciones","Suscripciones","Ahorro","Otros"];
 
   const handleSubmit = () => {
-    if (!category || !amount) return;
+  addTransaction({
+    id: uuidv4(),
+    type,
+    category,
+    description,
+    amount,
+    date,
+  });
 
-    addTransaction({
-      id: uuidv4(),
-      type,
-      category,
-      description,
-      amount,
-      date,
-    });
 
     setCategory("");
     setDescription("");

@@ -42,7 +42,7 @@ export default function IncomeForm({ isOpen, onClose, transaction }: Props) {
 
     const payload: Transaction = {
       id: transaction?.id ?? crypto.randomUUID(),
-      type: "expense",
+      type: "income",
       category,
       description,
       amount,
