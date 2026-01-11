@@ -1,4 +1,4 @@
-# 💰 Personal Finance Dashboard
+# Personal Finance Dashboard
 
 Aplicación web para el **control y análisis de ingresos y gastos personales**, enfocada en la **visualización y análisis de datos**, el manejo correcto de fechas y una **arquitectura frontend escalable**.
 
@@ -6,7 +6,7 @@ El proyecto permite registrar transacciones, filtrarlas por distintos rangos de 
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - **HTML5 - CSS**
 - **TypeScript**
@@ -40,6 +40,7 @@ Si no ocurre, accede manualmente a:
 http://localhost:5173
 
 ```
-
+## Deploy on Vercel
+https://personal-finances-j13g3te5l-paztorr3s-projects.vercel.app/
 
 
